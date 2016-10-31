@@ -19,6 +19,18 @@ public class LoginController {
 		ModelAndView mv=new ModelAndView("login");
 		return mv;
 	}
+	
+	
+	@RequestMapping("dcm.do")
+	public ModelAndView userRegistration(){
+		ModelAndView mv=new ModelAndView("dcmds");
+		return mv;
+	}
+	@RequestMapping("dcmds.do")
+	public ModelAndView userLogin(){
+		ModelAndView mv=new ModelAndView("dcm");
+		return mv;
+	}
 	@RequestMapping("search.do")
 	public ModelAndView displaySearchPage(){
 		ModelAndView mv=new ModelAndView();

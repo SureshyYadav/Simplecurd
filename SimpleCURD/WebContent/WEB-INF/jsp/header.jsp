@@ -17,6 +17,10 @@
 				<td rowspan="2" class="info_logout"
 					onmouseover="this.className='info_logoutOver'"
 					onmouseout="this.className='info_logout'"
+					onclick="logoff('login.do');">Login</td>
+				<td rowspan="2" class="info_logout"
+					onmouseover="this.className='info_logoutOver'"
+					onmouseout="this.className='info_logout'"
 					onclick="logoff('logout.do');">Logout</td>
 			</tr>
 			<tr>

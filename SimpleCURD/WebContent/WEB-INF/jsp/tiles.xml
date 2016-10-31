@@ -29,5 +29,11 @@
 	<definition name="suresh" extends="base">
 		<put-attribute name="body" value="/WEB-INF/jsp/suresh.jsp" />
 	</definition>
+	<definition name="dcmds" extends="base">
+		<put-attribute name="body" value="/WEB-INF/jsp/registration.jsp" />
+	</definition>
+	<definition name="dcm" extends="base">
+		<put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+	</definition>
 
 </tiles-definitions>
